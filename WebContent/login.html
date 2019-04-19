@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+ 	<br />
+ 	<br />
+ 	<br />
+ 	<br />
+ 	<br />
+ 	<br />
+ 	
+	<div class="login">
+	<h1>Login</h1>
+	
+	<img src="images/login.png" height="100px" width="100px" id="person">
+	
+		<form action="ControllerServlet" method="post">
+			Username:<br /> 
+			<input type="text" name="username" id="userid" style="width: 160px" placeholder="Enter Username">
+			<br />
+			<br /> 
+			
+			Password:<br /> 
+			<input type="password" name="password" id="password" style="width: 160px" placeholder="Enter Password"> <br /> 
+			<br />
+			
+			<input type="submit" value="Login"><input type="button" value="Register" onclick="location.href='regPlayer.jsp';">
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: lightblue;
+	font-family: "Arial";
+}
+
+p {
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 10px 100px 10px 10px;
+	display: inline-block;
+	margin: 10px;
+}
+
+#person {
+	padding: 0px 0px 40px 0px;
+}
+
+.night {
+	position: relative;
+
+}
+
+.night img {
+	position: absolute;
+	top: 0px;
+	right: 20px;
+}
+
+.link {
+	padding: 30px;
+	margin: 10px;
+	background-color: beige;
+	color: inherit;
+	border: 2px solid black;
+	border-radius: 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.link:hover {
+	background-color: tan;
+	cursor: pointer;
+}
+
+
+.link a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.center {
+	width: 100%;
+	text-align: center;
+}
+
+.topnav {
+	background-color: cornflowerblue;
+	overflow: hidden;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: grey;
+	color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+	background-color: teal;
+	color: black;
+}
+
+.login {
+	padding: 10px 10px 40px 10px;
+	width: 20%;
+	min-width: 200px;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+	margin: auto;
+	box-shadow: 5px 5px 2px black;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+}
+
+label.error{
+	dislay: block;
+	color: red;
+}
